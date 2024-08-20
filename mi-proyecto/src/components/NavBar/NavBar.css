@@ -1,0 +1,45 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+nav h2 {
+    font-size: 1.8rem;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+
+nav div:first-of-type {
+    font-size: 2rem;
+}
+
+
+nav div:last-of-type {
+    display: flex;
+    gap: 15px;
+}
+
+nav button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+nav button:hover {
+    background-color: #777; /* Fondo más claro al pasar el mouse */
+}
+
+nav .cart-widget {
+    margin-left: auto;
+}
